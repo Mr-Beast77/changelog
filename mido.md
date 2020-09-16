@@ -29,6 +29,13 @@
 - Livedisplay: Update C/C++ code format
 - Disable sys.use_fifo_ui
 - Add missing priv-app permissions
+- Drop display calibration files
+- Remove btconfigstore blob
+- Restore wcnss_service from Tissot
+- Revert "mido: Update and modify wcnss_service."
+- Revert "mido: Inject goodix script service in biometrics init rc"
+- HEX edit Goodix blobs for new Parcel class size in Android Q
+- Reduce debug level for lowi & xtwifi gps configs
 - And some under the hood optimizations
 
 Special thanks to Kingsman44 brother and all the devs & users who helped me for these changelogs <3

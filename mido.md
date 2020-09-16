@@ -1,5 +1,37 @@
 # Redmi Note 4x Mido
 
+## Corvus v9.0
+
+- Update blobs from LA.UM.8.6.r1-04700-89xx.0 
+(this change is massive including gps, vendor patch, perf,ant, audio, bluetooth, charger, cne, dpm, drm, graphics, keystore,  radio, thermal etc, so clean flash is recommended, though dirty flash will boot, but not recommended)
+- Fixed wifi reboot issue
+- Revert: mido: Gboard: Rounded corners 
+- Merged with latest zeelog changes
+- Filter out the conference host in the CEP for some carriers
+- Drop prebuilt HWC blobs
+- Build Dynamic Lifecycle DRM HAL
+- Merge gps_debug.conf into gps.conf
+- ConsumerIr: Add Dynamic Lifecycle HAL support
+- Switch to lazy WiFi HAL
+- Audio: Add built-in mic to primary input sources
+- Audio: Add "Built-In (Back) Mic" to "primary input" sink
+- Restore previous wifi implementation
+- Correct TARGET_RECOVERY_DEVICE_MODULES
+- Update controls for internal codec
+- Sepolicy: address radio,netmgrd, vpn,perf,  related denials
+- Audio: Add missing compress-offload-playback bt-sco-wb sub paths
+- Audio: convert Internal BTSCO SampleRate to readable values
+- Revert "mido: biometrics: use prebuilt modified blobs"
+- Revert "mido: Remove firmware dirs from config.fs"
+- Import custom LiveDisplay 2.0 HAL
+- Livedisplay: Drop dlopen list for sdm libs
+- Livedisplay: Update C/C++ code format
+- Disable sys.use_fifo_ui
+- Add missing priv-app permissions
+- And some under the hood optimizations
+
+Special thanks to Kingsman44 brother and all the devs & users who helped me for these changelogs <3
+
 ## Corvus v8.5
 
 - Removed dolby audio

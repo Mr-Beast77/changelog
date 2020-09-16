@@ -4,6 +4,7 @@
 
 - Update blobs from LA.UM.8.6.r1-04700-89xx.0 
 (this change is massive including gps, vendor patch, perf,ant, audio, bluetooth, charger, cne, dpm, drm, graphics, keystore,  radio, thermal etc, so clean flash is recommended, though dirty flash will boot, but not recommended)
+- Face Unlock added
 - Fixed wifi reboot issue
 - Revert: mido: Gboard: Rounded corners 
 - Merged with latest zeelog changes
